@@ -57,6 +57,22 @@ When the Economizer is selected there will be a prompt to select *Campus*,
 
 Point Mapping
 *************
+*Point Mapping* will be the first tab on the left side of the Economizer page. This will be 
+located underneath the main configuration file and the *Default Economizer*. 
+
+.. image:: _images/point_Mapping.jpg
+
+Once *Point Mapping* is selected, configurations will show on the center of the screen. 
+
+.. image:: _images/point_Config.jpg
+
+Once the configuration is shown in the center of the screen, the dropdown inputs 
+may be selected to configure. 
+
+.. image:: _images/point_Populate.jpg
+
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
