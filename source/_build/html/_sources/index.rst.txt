@@ -85,19 +85,25 @@ Once settings is selected the center section will populate with configurations.
 
 **Device Type**
 
-This selection will be a...
+*Device Type* will give you an option to either choose *AHU* or *RTU* underneath the settings 
+title. 
 
 .. image:: _images/device_Type.jpg
 
 **Economizer Type**
 
-This selection will be a..
+Economizer type has two selections: *DDB* and *HL*.
+Choosing one will provide specific configuration settings.
 
 .. image:: _images/economizer_Type.jpg
 
+Economizer Type: DDB
+********************
+
 **Data Window**
 
-This selection will be a..
+This selection will be an integer type ranging from 0 to 60 minutes. 
+The user may input an integer or use the slider to obtain the number required.
 
 .. image:: _images/data_Window.jpg
 
@@ -143,13 +149,10 @@ This selection will be a..
 
 .. image:: _images/temperature_Dead.jpg
 
-Economizer type: DDB
-********************
+Economizer type: HL
+*******************
 
 .. image:: _images/econ_Typehl.jpg
-
-When DDB is selected, a new selection 
-of configurations will be available. 
 
 **Economizer Switchover Setpoint**
 
@@ -163,7 +166,7 @@ This selection will be a..
 
 **Number Required Data**
 
-.. image:: _images/num_Req.jpg
+.. image:: _images/number_Req.jpg
 
 **Desired Outdoor Air Fraction**
 
@@ -240,6 +243,17 @@ If *Customize Threshold Parameters* is selected, there will be new settings to c
 .. image:: _images/temp_Diff.jpg
 
 **Open Damper Threshold**
+
+.. image:: _images/open_Damp.jpg
+
+**OAF Temperature Threshold**
+
+.. image:: _images/oaf.jpg
+
+**Cooling enabled Threshold**
+
+.. image:: _images/cooling_T.jpg
+
 
 .. toctree::
    :maxdepth: 2
