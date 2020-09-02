@@ -1,3 +1,5 @@
 {
-    "restructuredtext.confPath": "${workspaceFolder}\\source"
+    "cSpell.ignoreWords": [
+        "volttron"
+    ]
 }
