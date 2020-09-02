@@ -245,48 +245,83 @@ If *Customize Threshold Parameters* is selected, there will be new settings to c
 
 **Low Supply Fan**
 
+This selection will be a floating point number ranging from 0 to 100%. 
+The user may input an integer or use the slider to obtain the number required.
+
 .. image:: _images/low_Sup.jpg
 
 **Mixed-Air Temperature Low**
+
+This selection will be a floating point number ranging from 40 to 60 degrees. 
+The user may input an integer or use the slider to obtain the number required.
 
 .. image:: _images/Mix_Temp.jpg
 
 **Mixed-Air Temperature High**
 
+This selection will be a floating point number ranging from 80 to 90 degrees. 
+The user may input an integer or use the slider to obtain the number required.
+
 .. image:: _images/mix_Temp.jpg
 
 **Outside-Air Temperature Low**
+
+This selection will be a floating point number ranging from 20 to 40 degrees. 
+The user may input an integer or use the slider to obtain the number required.
 
 .. image:: _images/out_Low.jpg
 
 **Outside-Air Temperature High**
 
+This selection will be a floating point number ranging from 90 to 125 degrees. 
+The user may input an integer or use the slider to obtain the number required.
+
 .. image:: _images/out_High.jpg
 
 **Return-Air Temperature Low**
+
+This selection will be a floating point number ranging from 40 to 60 degrees. 
+The user may input an integer or use the slider to obtain the number required.
 
 .. image:: _images/return_Low.jpg
 
 **Return-Air Temperature High**
 
+This selection will be a floating point number ranging from 80 to 90 degrees. 
+The user may input an integer or use the slider to obtain the number required.
+
 .. image:: _images/return_High.jpg
 
 **Temperature Difference Threshold**
+
+This selection will be a floating point number ranging from 2 to 6. 
+The user may input an integer or use the slider to obtain the number required.
 
 .. image:: _images/temp_Diff.jpg
 
 **Open Damper Threshold**
 
+This selection will be a floating point number ranging from 60 to 90. 
+The user may input an integer or use the slider to obtain the number required.
+
 .. image:: _images/open_Damp.jpg
 
 **OAF Temperature Threshold**
+
+This selection will be a floating point number ranging from 5 to 15. 
+The user may input an integer or use the slider to obtain the number required.
 
 .. image:: _images/oaf.jpg
 
 **Cooling enabled Threshold**
 
+This selection will be a floating point number ranging from 5 to 50. 
+The user may input an integer or use the slider to obtain the number required.
+
 .. image:: _images/cooling_T.jpg
 
+Json view
+*********
 
 .. toctree::
    :maxdepth: 2
