@@ -7,21 +7,6 @@
 AHU Economizer Configuration User Guide:
 ########################################
 
-Introduction
-************
-
-!!TEST DOC DELETE THIS WHEN DONE!!
-
-AHU config tool
-
-AHU Application Configuration
-*****************************
-
-The *AHU* Application behavior is controlled through these
-configuration Pages:
-
-
-
 Importing Master Driver Configuration Store
 *******************************************
 At the initial homepage, the user will be prompted to upload the **Master Driver** file. Values within the Master Driver Configuration Store will be parsed to provide options for Campus, Buidling, Device and Points throughout the application.
@@ -42,6 +27,17 @@ Below The *Master Driver* button, there are two buttons that say:
 previously, and the *Generate configuration file for...* will allow the user to create a new configuration file for either the *ECONOMIZER* or *AIRSIDE*. 
 
 .. image:: _images/ahu_File.jpg
+
+AHU Application Configuration
+*****************************
+
+The *AHU* Application behavior is controlled through these
+configuration Pages:
+
+1.  **Point Mapping**
+2.  **Settings**
+3.  **Thresholds**
+
 
 Economizer
 **********
@@ -74,6 +70,30 @@ All of the *Point Mapping* configuration settings will be drop down inputs that 
 main configuration file selected for the page. 
 
 .. image:: _images/point_Populate.jpg
+
+JSON
+****
+
+Throughout the AHU application, there is a page on the right hand side of the screen with 
+visual accessibility of the JSON code. As items are input into the tab sections of the application 
+the JSON code will populate with its corresponding items. 
+
+For Example: When a *Device(s)* is chosen on on the first page, the *JSON* code will populate
+with those same chosen devices. 
+
+**JSON Example**: At the start of the *Economizer* page when the user is prompted to input a *Device*, there is 5 options to choose from: 
+
+.. image:: _images/device_Select.jpg
+
+After the device is chosen there will be a dropdown of devices to choose from. 
+
+
+.. image:: _images/ahu_Device.jpg
+
+As these devices are chosen, they will be stored within the *Json* code on the right side of the page as items
+are selected.
+
+.. image:: _images/json_Econ.jpg
 
 Settings
 ********
@@ -320,8 +340,24 @@ The user may input an integer or use the slider to obtain the number required.
 
 .. image:: _images/cooling_T.jpg
 
-Json view
-*********
+Saving Files
+************
+
+Once everything within the *Economizer* is configured, the last option will be to save the
+AHU file. 
+
+.. image:: _images/save_As.jpg
+
+Once the *Save as* button is selected, a new input will appear in the center of the screen. 
+
+.. image:: _images/save_Ascust.jpg
+
+This will allow the user to name the file whatever is desired. The file will automatically create 
+the file as a *.json* file as well. 
+
+Once the save button is chosen, it will download to the browser as the file it was named. 
+
+.. image:: _images/ahu_Filejson.jpg
 
 .. toctree::
    :maxdepth: 2
