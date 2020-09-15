@@ -278,7 +278,7 @@ The user may input an integer or use the slider to obtain the number required.
 This selection will be a floating point number ranging from 40 to 60 degrees. 
 The user may input an integer or use the slider to obtain the number required.
 
-.. image:: _images/Mix_Temp.JPG
+.. image:: _images/mix_Temp.JPG
 
 **Mixed-Air Temperature High**
 
