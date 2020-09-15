@@ -11,7 +11,7 @@ Importing Master Driver Configuration Store
 *******************************************
 At the initial homepage, the user will be prompted to upload the **Master Driver** file. Values within the Master Driver Configuration Store will be parsed to provide options for Campus, Buidling, Device and Points throughout the application.
 
-.. image:: _images/ahu_Frontpage.jpg
+.. image:: _images/ahu_Frontpage.JPG
 
 Once the user has selected the Master Driver Configuration Store, this homepage will not appear again. However, if the user needs to upload a different Master Driver Configuration Store at any point, this option can be accessed via the Menu icon in the top left of the application.
 
@@ -26,17 +26,7 @@ Below The *Master Driver* button, there are two buttons that say:
 *AHU File* and *Generate configuration file for...* The *Ahu File* will allow the user to submit a file that has been created by the AHU config 
 previously, and the *Generate configuration file for...* will allow the user to create a new configuration file for either the *ECONOMIZER* or *AIRSIDE*. 
 
-.. image:: _images/ahu_File.jpg
-
-AHU Application Configuration
-*****************************
-
-The *AHU* Application behavior is controlled through these
-configuration Pages:
-
-1.  **Point Mapping**
-2.  **Settings**
-3.  **Thresholds**
+.. image:: _images/ahu_File.JPG
 
 
 Economizer
@@ -50,6 +40,19 @@ When the Economizer is selected there will be a prompt to select *Campus*,
 *Building*, and *Device*. These will all be selected as dropdown inputs. 
 
 .. image:: _images/dropdowns.jpg
+
+
+AHU Application Configuration
+*****************************
+
+The *AHU* Application behavior is controlled through these
+configuration Pages:
+
+1.  **Point Mapping**
+2.  **Settings**
+3.  **Thresholds**
+
+
 
 Point Mapping
 *************
